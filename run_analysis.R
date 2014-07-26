@@ -11,7 +11,7 @@ Y <- rbind(Y_train,Y_test)
 subject <- rbind(subject_train,subject_test)
 colnames(subject) <- 'subject'
 colnames(X) <- features[,2]
-ptd <- '.*-mean\\(\\)-.*|.*-std\\(\\)-.*'
+ptd <- '.*-mean\\(\\).*|.*-std\\(\\).*'
 ndx = grep(ptd, features$V2, perl=T)
 X <- X[,ndx]
 activity <- factor(Y$V1,labels=labels$V2)
