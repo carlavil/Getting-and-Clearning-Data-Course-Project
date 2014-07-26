@@ -3,7 +3,7 @@ Getting-and-Clearning-Data-Course-Project
 #Variables:
 1. activity - activity being performed
 2. subject - subject preforming the activity
-3. - 68) mean and standard deviation for each reading:
+3. (to 68) mean and standard deviation for each reading:
 
 - tBodyAcc-XYZ
 - tGravityAcc-XYZ
@@ -30,16 +30,14 @@ Getting-and-Clearning-Data-Course-Project
 #Code
 
 1. Loads all needed data sets to R:
-
-- X_test.txt
-- X_train.txt
-- Y_test.txt
-- Y_train.txt
-- subject_test.txt
-- subject_train.txt
-- activity_labels.txt
-- features.txt
-
+  - X_test.txt
+  - X_train.txt
+  - Y_test.txt
+  - Y_train.txt
+  - subject_test.txt
+  - subject_train.txt
+  - activity_labels.txt
+  - features.txt
 2. Combines train and test data for each X, Y , and subject using rbind
 3. assigns the name subject to the signle column in the subject data set
 4. assigns the names contained in the features file to the columns in the X data set
