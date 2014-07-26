@@ -1,33 +1,31 @@
 Getting-and-Clearning-Data-Course-Project
 =========================================
-#Variables:
+##Variables:
 1. activity - activity being performed
 2. subject - subject preforming the activity
 3. (to 68) mean and standard deviation for each reading:
+  - '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+    - tBodyAcc-XYZ
+    - tGravityAcc-XYZ
+    - tBodyAccJerk-XYZ
+    - tBodyGyro-XYZ
+    - tBodyGyroJerk-XYZ
+    - tBodyAccMag
+    - tGravityAccMag
+    - tBodyAccJerkMag
+    - tBodyGyroMag
+    - tBodyGyroJerkMag
+    - fBodyAcc-XYZ
+    - fBodyAccJerk-XYZ
+    - fBodyGyro-XYZ
+    - fBodyAccMag
+    - fBodyAccJerkMag
+    - fBodyGyroMag
+    - fBodyGyroJerkMag
 
-- tBodyAcc-XYZ
-- tGravityAcc-XYZ
-- tBodyAccJerk-XYZ
-- tBodyGyro-XYZ
-- tBodyGyroJerk-XYZ
-- tBodyAccMag
-- tGravityAccMag
-- tBodyAccJerkMag
-- tBodyGyroMag
-- tBodyGyroJerkMag
-- fBodyAcc-XYZ
-- fBodyAccJerk-XYZ
-- fBodyGyro-XYZ
-- fBodyAccMag
-- fBodyAccJerkMag
-- fBodyGyroMag
-- fBodyGyroJerkMag
+...
 
-> '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
-
-=============================================================================
-
-#Code
+##Code
 
 1. Loads all needed data sets to R:
   - X_test.txt
